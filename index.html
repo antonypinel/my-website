@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre du site -->
+    <title>antoskins</title>
+    <!-- Icône du site -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Description -->
+    <meta name="description" content="Étudiant à l'IUT Informatique d'Aix-en-Provence, graphiste freelance. Également bêta-testeur et créateur de contenu sur le jeu TrackMania">
+    <!-- Mots clé -->
+    <meta name="keywords" content="Site, antoskins, Antony Pinel,IUT, AMU, dev, site, TrackMania, trackmania skins, trackmania skinner, livery design, freelance designer">
+    <!-- Lien du CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Importation de la police -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="anchor" id="home"></div>
+    <nav>
+        <aside id="leftNav">
+            <a href="#home" onclick="closeLeftNav()">Home</a>
+            <hr>
+            <a href="#about" onclick="closeLeftNav()">About</a>
+            <hr>
+            <a href="#services" onclick="closeLeftNav()">Skills</a>
+            <hr>
+            <a href="#projects" onclick="closeLeftNav()">Projects</a>
+            <hr>
+            <a href="#contact" onclick="closeLeftNav()">Contact</a>
+            <hr>
+            <a onclick="changeTheme()" class="nounder"><i class="far fa-lightbulb"></i></a>
+        </aside>
+        <div class="menu">
+            <a onclick="openLeftNav()"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="titles">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a onclick="changeTheme()" class="nounder"><i class="far fa-lightbulb"></i></a>
+        </div>
+        <div class="social">
+            <a title="Behance" target="_blank" href="https://www.behance.net/antoskins"><i class="fab fa-behance"></i></a>
+            <a title="Twitter" target="_blank" href="https://twitter.com/antoskinsTM"><i class="fab fa-twitter"></i></a>
+            <a title="Instagram" target="_blank" href="https://www.instagram.com/antoskinstm/"><i class="fab fa-instagram"></i></a>
+            <a title="Twitch" target="_blank" href="https://www.twitch.tv/antoskins"><i class="fab fa-twitch"></i></a>
+            <a title="Discord" target="_blank" href="https://discord.gg/AfYZqrK"><i class="fab fa-discord"></i></a>
+        </div>
+    </nav>
+    <header>
+        <img alt="" src="assets/img/logowhite.png">
+        <div class="headerSubs">
+            <span>graphic designer</span>
+            <p>-</p>
+            <span>content creator</span>
+            <p>-</p>
+            <span>informatic student</span>
+            <p>-</p>
+            <span>alpha tester</span>
+        </div>
+    </header>
+    <main>
+        <div class="anchor" id="about"></div>
+        <section class="about">
+            <img alt="" src="assets/img/portrait.png">
+            <div class="me">
+                <p class="title">About me</p>
+                <p class="details">
+                    Hello ! I'm a <span>18 year-old</span> french student. Huge fan of racing and motorsports in general.<br>
+                    Then in <span>2015</span>, I've started creating <span>car-skin liveries</span> in Photoshop on my favorite game Trackmania.<br>
+                    Currently in an <span>computer science</span> university, I'm studying programming to upgrade my skillset.<br>
+                    Delighted to explore new styles, I'm always ready <span>to push my limits</span> in my projects
+                </p>
+                <p class="sub">
+                    <span>Education & Certification :</span> BAC Scientifique - 2020 / DUT Informatique - 2022<br>
+                    <span>Awards :</span> 3rd Skinner Of The Year / 4th Skin Of The Year - 2019<br>
+                    <span>Experience :</span> Graphic Design - 2015 / TrackMania© beta-tester - 2020
+                </p>
+            </div>
+        </section>
+        <div class="anchor" id="services"></div>
+        <section class="services">
+            <p class="title">My <span>digital</span> services</p>
+            <div class="list">
+                <div class="serviceBox">
+                    <i class="fas fa-car"></i>
+                    <p class="subtitle">Livery Design</p>
+                    <p>
+                        Based on the game Trackmania, I can create full customizable
+                        car-skin designs for e-sports teams and for customers in 2 weeks.
+                    </p>
+                </div>
+                <div class="serviceBox">
+                    <i class="fas fa-font"></i>
+                    <p class="subtitle">Branding</p>
+                    <p>
+                        Based on the game Trackmania, I can create a whole graphic identity
+                        for tournaments, streamers who need twitch assets or personnal uses.
+                    </p>
+                </div>
+                <div class="serviceBox">
+                    <i class="fas fa-tshirt"></i>
+                    <p class="subtitle">Jersey Design</p>
+                    <p>
+                        I am able to create jersey designs for e-sport teams based on their
+                        demands, sponsors and color scheme in 2 or 3 weeks.
+                    </p>
+                </div>
+                <div class="serviceBox">
+                    <i class="fas fa-desktop"></i>
+                    <p class="subtitle">Website Development</p>
+                    <p>
+                        Currently in computer science university, I am able to create a whole
+                        website using HTML, CSS and Javascript in a delay of one month.
+                    </p>
+                </div>
+                <div class="serviceBox">
+                    <i class="fas fa-code"></i>
+                    <p class="subtitle">Programming</p>
+                    <p>
+                        Currently in computer science university, I am learning how to create
+                        programs in C++ and Bash languages for school projects in groups.
+                    </p>
+                </div>
+                <div class="serviceBox">
+                    <i class="far fa-images"></i>
+                    <p class="subtitle">Photography</p>
+                    <p>
+                        Always with my phone, I love to take photographies of landscapes,
+                        animals or even beautiful cars during my free-time and holidays.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="anchor" id="projects"></div>
+        <section class="projects" id="projects">
+            <p class="title">My <span>latest</span> projects</p>
+            <p class="subtitle">All my projects since 2019 for e-sport teams or customers</p>
+            <div class="imgList">
+                <a href="tm2-skins.html"><img alt="" src="assets/img/tm2.png"></a>
+                <a href="gfx-projects.html"><img alt="" src="assets/img/gp.png"></a>
+                <a href="tm2020-skins.html"><img alt="" src="assets/img/tm2020.png"></a>
+            </div>
+        </section>
+        <div class="anchor" id="contact"></div>
+        <section class="contact" id="contact">
+            <p class="title">Want to order <span>graphic stuff</span> or to contact me ?</p>
+            <div class="infoForm">
+                <div class="infos">
+                    <p>
+                        <span>antonypinel@gmail.com</span>
+                        <i class="far fa-envelope"></i>
+                    </p>
+                    <p>
+                        <span>IUT Aix-Marseille - 413 Avenue Gaston Berger, 13100 Aix-en-Provence</span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </p>
+                    <p>
+                        <span>07 50 24 48 36</span>
+                        <i class="fas fa-phone-alt"></i>
+                    </p>
+                    <p>
+                        <span>7 / 7 - 10am / 11pm</span>
+                        <i class="far fa-clock"></i>
+                    </p>
+                </div>
+                <form action="https://getform.io/f/8e30af84-50c8-4d84-91f2-70a70c893df5" method="POST" enctype="multipart/form-data">
+                    <input type="text" name="name" placeholder="Name *">
+                    <input type="email" name="email" placeholder="Mail *">
+                    <textarea name="subject" placeholder="Message *"></textarea>
+                    <button id="button-submit" type="submit" value="Submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logoFooter"></div>
+        <p>Copyright &copy; 2020 antoskins<br>All rights reserved</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/77fa4d8648.js"></script>
+    <!-- Lien du JavaScript -->
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
