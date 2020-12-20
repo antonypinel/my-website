@@ -470,6 +470,7 @@ article {
         width: 700px;
         height: 445px;
         border-radius: 6px;
+        z-index: 1;
     }
 
         article img:hover {
