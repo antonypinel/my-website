@@ -528,6 +528,7 @@ footer {
 /* Responsive */
 
 @media screen and (max-width: 768px) {
+
     header {
         min-height: 360px !important;
     }
@@ -543,6 +544,10 @@ footer {
 
     form {
         width: 350px !important;
+    }
+
+    .serviceBox {
+        margin: 35px 0px;
     }
 
     aside {
