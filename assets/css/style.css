@@ -547,7 +547,7 @@ footer {
     }
 
     .serviceBox {
-        margin: 35px 0px;
+        margin: 35px 0px !important;
     }
 
     aside {
