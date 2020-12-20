@@ -27,6 +27,10 @@ main {
     background-color: #f7f7f8 !important;
 }
 
+article.light {
+    background-color: white;
+}
+
 /* Services */
 
 .serviceBox {
