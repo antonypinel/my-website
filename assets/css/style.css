@@ -68,7 +68,7 @@ aside {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 0;
     transition: 0.3s;
