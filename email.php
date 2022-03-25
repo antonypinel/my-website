@@ -1,4 +1,5 @@
 <?php
+if(isset($_POST['submit'])){
 $subject = 'Website Notification'; // Subject of your email
 $to = 'antonypinel@gmail.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
@@ -29,5 +30,6 @@ else
 {
 	// Transfer the value 'failed' to ajax function for showing error message.
 	echo 'failed';
+}
 }
 ?>
