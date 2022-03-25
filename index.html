@@ -1,189 +1,1562 @@
-﻿<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="eng">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre du site -->
+    <meta charset="utf-8" />
     <title>antoskins</title>
-    <!-- Icône du site -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <!-- Description -->
-    <meta name="description" content="Welcome to my website ! I'm a french content-creator & beta-tester in TrackMania, also studying in computer science at the IUT Aix-Marseille. Here you will see all my projects since 2019 for customers and e-sport teams.">
-    <!-- Mots clé -->
-    <meta name="keywords" content="Site, antoskins, Antony Pinel,IUT, AMU, dev, site, TrackMania, trackmania skins, trackmania skinner, livery design, freelance designer">
-    <!-- Lien du CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- Importation de la police -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="French content-creator & beta-tester in TrackMania, second TrackMania Skinner Of The Year 2020/2021, and also studying in computer science. Here is the place where the best of my work for e-sports structures or clients has been gathered since 2018." name="description" />
+    <meta content="antoskins, antoskins trackmania, trackmania, trackmania skins, trackmania skinner, livery design, freelance designer" name="keywords" />
+    <meta content="Antony Pinel" name="author" />
+
+    <script src="https://kit.fontawesome.com/77fa4d8648.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-04.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <div class="anchor" id="home"></div>
-    <nav>
-        <aside id="leftNav">
-            <a href="#home" onclick="closeLeftNav()">Home</a>
-            <hr>
-            <a href="#about" onclick="closeLeftNav()">About</a>
-            <hr>
-            <a href="#services" onclick="closeLeftNav()">Skills</a>
-            <hr>
-            <a href="#projects" onclick="closeLeftNav()">Projects</a>
-            <hr>
-            <a href="#contact" onclick="closeLeftNav()">Contact</a>
-            <hr>
-            <a onclick="changeTheme()" class="nounder"><i class="far fa-lightbulb"></i></a>
-        </aside>
-        <div class="menu">
-            <a onclick="openLeftNav()"><i class="fas fa-bars"></i></a>
+    <div id="wrapper">
+        <div id="btn-exit">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
         </div>
-        <div class="titles">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a onclick="changeTheme()" class="nounder"><i class="far fa-lightbulb"></i></a>
-        </div>
-        <div class="social">
-            <a title="Behance" target="_blank" href="https://www.behance.net/antoskins"><i class="fab fa-behance"></i></a>
-            <a title="Twitter" target="_blank" href="https://twitter.com/antoskinsTM"><i class="fab fa-twitter"></i></a>
-            <a title="Instagram" target="_blank" href="https://www.instagram.com/antoskinstm/"><i class="fab fa-instagram"></i></a>
-            <a title="Twitch" target="_blank" href="https://www.twitch.tv/antoskins"><i class="fab fa-twitch"></i></a>
-            <a title="Discord" target="_blank" href="https://discord.gg/AfYZqrK"><i class="fab fa-discord"></i></a>
-        </div>
-    </nav>
-    <header>
-        <img alt="" src="assets/img/logowhite.png">
-        <div class="headerSubs">
-            <span>graphic designer</span>
-            <p>-</p>
-            <span>content creator</span>
-            <p>-</p>
-            <span>computer science student</span>
-            <p>-</p>
-            <span>alpha tester</span>
-        </div>
-    </header>
-    <main>
-        <div class="anchor" id="about"></div>
-        <section class="about">
-            <img alt="" src="https://www.aht.li/3632958/myselfv3.png">
-            <div class="me">
-                <p class="title">About me</p>
-                <p class="details">
-                    Hello ! I'm a <span>19 year-old</span> french student. Huge fan of racing and motorsports in general.<br>
-                    Then in <span>2015</span>, I've started creating <span>car-skin liveries</span> in Photoshop on my favorite game Trackmania.<br>
-                    Currently in an <span>computer science</span> university, I'm studying programming to upgrade my skillset.<br>
-                    Delighted to explore new styles, I'm always ready <span>to push my limits</span> in my projects.
-                </p>
-                <p class="sub">
-                    <span>Education & Certification :</span> BAC Scientifique - 2020 | DUT Informatique - 2022<br>
-                    <span>Awards :</span> 2nd Skinner Of The Year - 2020/2021<br>
-                    <span>Experience :</span> Graphic Design - 2015 | TrackMania© beta-tester - 2020
-                </p>
-            </div>
-        </section>
-        <div class="anchor" id="services"></div>
-        <section class="services">
-            <p class="title">My <span>digital</span> services</p>
-            <div class="list">
-                <div class="serviceBox">
-                    <i class="fas fa-car"></i>
-                    <p class="subtitle">Livery Design</p>
-                    <p>
-                        Based on the game Trackmania, I can create full customizable
-                        car-skin designs for e-sports teams and for customers in 2 weeks.
-                    </p>
-                </div>
-                <div class="serviceBox">
-                    <i class="fas fa-font"></i>
-                    <p class="subtitle">Branding</p>
-                    <p>
-                        Based on the game Trackmania, I can create a whole graphic identity
-                        for tournaments, streamers who need twitch assets or personnal uses.
-                    </p>
-                </div>
-                <div class="serviceBox">
-                    <i class="fas fa-tshirt"></i>
-                    <p class="subtitle">Jersey Design</p>
-                    <p>
-                        I am able to create jersey designs for e-sport teams based on their
-                        demands, sponsors and color scheme in 2 or 3 weeks.
-                    </p>
-                </div>
-                <div class="serviceBox">
-                    <i class="fas fa-desktop"></i>
-                    <p class="subtitle">Website Development</p>
-                    <p>
-                        Currently in computer science university, I am able to create a whole
-                        website using HTML, CSS and Javascript in a delay of one month.
-                    </p>
-                </div>
-                <div class="serviceBox">
-                    <i class="fas fa-code"></i>
-                    <p class="subtitle">Programming</p>
-                    <p>
-                        Currently in computer science university, I am learning how to create
-                        programs in C++ and Bash languages for school projects in groups.
-                    </p>
-                </div>
-                <div class="serviceBox">
-                    <i class="far fa-images"></i>
-                    <p class="subtitle">Photography</p>
-                    <p>
-                        Always with my phone, I love to take photographies of landscapes,
-                        animals or even beautiful cars during my free-time and holidays.
-                    </p>
+        <div class="transition"></div>
+        <!-- header begin -->
+        <header class="header-b transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-between">
+                            <div class="align-self-center header-col-left">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        antøskins.
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+                            <div class="align-self-center ml-auto header-col-mid">
+                                <!-- mainmenu begin -->
+                                <ul id="mainmenu" class="scrollnav">
+                                    <li><a href="#section-resume">Resume</a></li>
+                                    <li></li>
+                                    <li><a href="#section-about">About Me</a></li>
+                                    <li></li>
+                                    <li><a href="#section-portfolio">Portfolio</a></li>
+                                    <li></li>
+                                    <li><a href="#section-contact">Contact</a></li>
+                                    <li><i class="flag flag-united-kingdom"></i></li>
+                                </ul>
+                                <!-- mainmenu close -->
+                            </div>
+                            <div class="align-self-center ml-auto header-col-right">
+                                <span id="menu-btn"></span>
+                                <div class="social-icons s-border sm-hide">
+                                    <a href="https://discord.com/invite/AfYZqrK"><i class="fa-brands fa-discord"></i>
+                                    <a href="https://www.behance.net/antoskins"><i class="fa-brands fa-behance"></i>
+                                    <a href="https://twitter.com/antoskinsTM"><i class="fa-brands fa-twitter"></i>
+                                    <a href="https://www.instagram.com/antoskinstm/"><i class="fa-brands fa-instagram"></i>
+                                    <a href="https://www.twitch.tv/antoskins"><i class="fa-brands fa-twitch"></i>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <div class="anchor" id="projects"></div>
-        <section class="projects" id="projects">
-            <p class="title">My <span>latest</span> projects</p>
-            <p class="subtitle">All my projects since 2019 for e-sport teams or customers</p>
-            <div class="imgList">
-                <a href="tm2-skins.html"><img alt="" src="assets/img/tm2.png"></a>
-                <a href="gfx-projects.html"><img alt="" src="assets/img/gp.png"></a>
-                <a href="tm2020-skins.html"><img alt="" src="assets/img/tm2020.png"></a>
-            </div>
-        </section>
-        <div class="anchor" id="contact"></div>
-        <section class="contact" id="contact">
-            <p class="title">Want to order <span>graphic stuff</span> or to contact me ?</p>
-            <div class="infoForm">
-                <div class="infos">
-                    <p>
-                        <span>antonypinel@gmail.com</span>
-                        <i class="far fa-envelope"></i>
-                    </p>
-                    <p>
-                        <span>IUT Aix-Marseille - 413 Avenue Gaston Berger, 13100 Aix-en-Provence</span>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </p>
-                    <p>
-                        <span>07 50 24 48 36</span>
-                        <i class="fas fa-phone-alt"></i>
-                    </p>
-                    <p>
-                        <span>7 / 7 - 10am / 11pm</span>
-                        <i class="far fa-clock"></i>
-                    </p>
+        </header>
+        <!-- header close -->
+        
+        <!-- content begin -->
+        <div class="no-bottom no-top dark">
+            <div id="top"></div>
+            <!-- section begin -->
+            <section id="section-main" class="vertical-center text-light" data-bgimage="url(images/background/5.jpg) top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+
+                            <div class="typed-words wow fadeInRight" data-wow-delay=".2s">
+                                <div class="typed-strings">
+                                    <p>Welcome</p>
+                                    <p>Bienvenue</p>
+                                    <p>Bienvenidas</p>                                               
+                                    <p>Welkom</p>
+                                </div>
+                                <div class="typed"></div>
+                            </div>
+                            <div class="spacer-single"></div>
+                            <h1 class="wow fadeInRight" data-wow-delay=".4s">Hello! I'm a <span class="underline">freelance</span> Livery Artist & Designer based in <span class="underline">France</span></h1>
+                            <div class="spacer-single"></div>
+                            <a href="index2.html" class="btn-custom light wow fadeInRight scoll-to" data-wow-delay=".6s"><i class="fa-solid fa-arrow-right-to-bracket"></i> Version du site en français</a>
+                        </div>
+
+                        <div class="col-md-6 sm-hide"><blockquote class="text-light pull-right wow fadeInRight" data-wow-delay=".6s">Design is in the details.</blockquote></div>
+                    </div>
                 </div>
-                <form action="https://getform.io/f/8e30af84-50c8-4d84-91f2-70a70c893df5" method="POST" enctype="multipart/form-data">
-                    <input type="text" name="name" placeholder="Name *">
-                    <input type="email" name="email" placeholder="Mail *">
-                    <textarea name="subject" placeholder="Message *"></textarea>
-                    <button id="button-submit" type="submit" value="Submit">Submit</button>
-                </form>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="logoFooter"></div>
-        <p>Copyright &copy; 2020 antoskins<br>All rights reserved</p>
-    </footer>
-    <script src="https://kit.fontawesome.com/77fa4d8648.js"></script>
-    <!-- Lien du JavaScript -->
-    <script src="assets/js/script.js" defer></script>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-resume" class="dark">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 wow fadeInRight">
+                            <a href="https://www.aht.li/3692369/CV-v2.pdf"><h4 class="title">I'm available for hire</h4></a>
+                            <h2 class="title">Resume</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInRight" data-wow-delay=".25s">
+                            <h3 class="s_border">Education</h3>
+                            <ul class="d_timeline">
+                                <li class="d_timeline-item">
+                                    <h3 class="d_timeline-title">September 2020 - July 2022</h3>
+                                    <p class="d_timeline-text"><span class="d_title">DUT Informatique<span>Aix-Marseille Université</span></span>
+                                        • Creation of a Pac-Man game on terminal - C++<br>
+                                        • AI project with machine learning - C++<br>
+                                        • Portfolio website development - HMTL/CSS/JavaScript<br>
+                                        • Development of an event site - PHP/mySQL<br>
+                                        • Mathematical modelling of an epidemic - Python</p>
+                                </li>
+                                <li class="d_timeline-item">
+                                    <h3 class="d_timeline-title">September 2017 - July 2020</h3>
+                                    <p class="d_timeline-text"><span class="d_title">BAC Scientifique<span>Lycée Maurice Genevoix</span></span></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight" data-wow-delay=".5s">
+                            <h3 class="s_border">Work Experiences</h3>
+                            <ul class="d_timeline">
+                                <li class="d_timeline-item">
+                                    <h3 class="d_timeline-title">November 2016 - Now</h3>
+                                    <p class="d_timeline-text"><span class="d_title">Graphic &amp; Livery Designer<span>Freelance</span></span>
+                                        • Graphic charter development<br>
+                                        • Car-skin livery creation and 3D Rendering<br>
+                                        • Create graphic assets on the Twitch platform<br>
+                                        • Design of E-sport jerseys<br>
+                                        • Graphic work for E-sports or corporate structures</p>
+                                </li>
+                                <li class="d_timeline-item">
+                                    <h3 class="d_timeline-title">April 2020 - Now</h3>
+                                    <p class="d_timeline-text"><span class="d_title">Alpha-tester<span>UBISOFT Nadeo</span></span>
+                                        • Preview functionality tests<br>
+                                        • Report bugs encountered during sessions<br>
+                                        • Reporting to developers<br>
+                                        • Improve the gaming experience</p>
+                                </li>
+                                <li class="d_timeline-item">
+                                    <h3 class="d_timeline-title">April 2022 - June 2022</h3>
+                                    <p class="d_timeline-text"><span class="d_title">Internship<span>Armée de l'Air et de l'Espace</span></span>
+                                        • Development of new materials for training tools<br>
+                                        • Development and improvement of networking of these tools<br>
+                                        • Improvement of the working network of the Initial Military Aeronautical Training Center
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="spacer-50"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="s_border">Programming Skills</h3>
+                            <div class="skill-bar">
+                                <h5>HTML &amp; CSS &amp; JavaScript</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <h5>PHP &amp; mySQL</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <h5>C++ &amp; Python</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="s_border">Design Skills</h3>
+                            <div class="skill-bar">
+                                <h5>Adobe Photoshop &amp; Lightroom</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <h5>Adobe inDesign</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <h5>Adobe Illustrator</h5>
+                                <div class="de-progress">
+                                    <div class="value"></div>
+                                    <div class="progress-bar" data-value="65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-about" class="dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 wow fadeInRight">
+                            <h4 class="title">Let me introduce myself</h4>
+                            <h2 class="title">About Me</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-sm-30 text-center">
+                            <div class="de-images">                                
+                                <div class="d-hover-zoom wow fadeInRight">
+                                    <a class="image-popup" href="images/misc/1.jpg">
+                                        <img class="img-fluid" src="images/misc/1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="d-hover-zoom di-small-2 wow fadeInLeft">
+                                    <a class="image-popup" href="images/misc/2.jpg">
+                                        <img src="images/misc/2.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-md-1 wow fadeInRight" data-wow-delay=".5s">
+                            <h2>Hello, I'm <span class="id-color">Antony Pinel</span></h2>
+                            <p>
+                                Hello ! I'm a 19 year-old french student. Huge fan of racing and motorsports in general.
+                                Then in 2015, I've started creating car-skin liveries in Photoshop on my favorite game Trackmania.
+                                Currently in an computer science university, I'm studying programming to upgrade my skillset.
+                                Delighted to explore new styles, I'm always ready to push my limits in my projects.
+                            </p>
+                            <ul class="info-list text-white">
+                                <li><span class="d_title">Age</span><span class="d_value">19</span></li>
+                                <li><span class="d_title">Residence</span><span class="d_value">Marignane, France</span></li>
+                                <li><span class="d_title">Email</span><span class="d_value">antonypinel@gmail.com</span></li>
+                                <li><span class="d_title">Phone</span><span class="d_value">+33 7 50 24 48 36</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="spacer-80"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="s_border">Services</h3>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-laptop id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Front-end Website Development</h4>
+                                    <p>Creation of a custom front-end portfolio website using HMTL, CSS and JavaScript languages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-paper-plane-o id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Branding</h4>
+                                    <p>Design and creation of graphic charter or complete graphic identity for company or individuals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInRight" data-wow-delay=".5s">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-line-chart id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Digital Communication</h4>
+                                    <p>Design and management of the company’s visual communication means through various digital formats.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay=".25s">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-hdd-o id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Back-end Website Development</h4>
+                                    <p>Creation and creation of a server-side architecture with database using PHP and mySQL languages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay="0s">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-object-group id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Livery Design</h4>
+                                    <p>Based on the customer’s graphic identity, design liveries on several racing games like TrackMania, Assetto Corsa Competizione.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay=".5s">
+                            <div class="f-box f-icon-left f-icon-box">
+                                <i class="fa fa-comments-o id-color"></i>
+                                <div class="fb-text">
+                                    <h4>Community Management</h4>
+                                    <p>Based on my experience, management of several communication accounts on social networks to post the news of the company in direct contact with the audience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer-80"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="s_border">Testimonials</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="testimonial-carousel" class="owl-carousel owl-theme wow fadeInUp">
+                                <blockquote class="testimonial-big text-light">
+                                    Despite a small margin of manoeuvre in terms of guidlines, Antony made our skins quickly and they are perfectly adapted to the need and the ideas we had for them.
+                                    As a force of proposal, he understood our expectations and knew how to advise and accompany us throughout the creation process!
+                                    <img src="images/people/11.jpg" alt="" />
+                                    <span class="name">Solary, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony was able to provide a very high quality work in a very short time in order to meet the needs of the structure. His professionalism allowed for good exchanges in order to lead the project towards its final goal quickly. 
+                                    We are very satisfied with his work and will not hesitate to contact him in future projects.
+                                    <img src="images/people/10.jpg" alt="" />
+                                    <span class="name">Team BDS, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony always been on point with delivering quality skins to Spam's community and also for us during the TrackMania Grand League. 
+                                    He has great creativity and always listens very well to feedback. 
+                                    Always have a good time working together!
+                                    <img src="images/people/9.jpg" alt="" />
+                                    <span class="name">Alliance, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony was super effective! He managed to combine quality, with a very short delay that allowed us to show our skin as soon as possible to our viewers during a major esport event which is the ZLAN.
+                                    I recommend these services in every way.
+                                    <img src="images/people/1.jpg" alt="" />
+                                    <span class="name">MCES, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Since we had no experience in Trackmania livery design, Antony was able to give us a helping hand. We didn't have a tight time limit, but after handing over the brandguide, the finished design with additional renders was ready in no time. 
+                                    We are happy as can be!
+                                    <img src="images/people/2.jpg" alt="" />
+                                    <span class="name">Sprout, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony managed to provide a very professional quality in his work and also in his contact, with short deadlines despite the workload. Good free-topic ideas and considerable flexibility in line with customer demand !
+                                    Special mention to attention to detail.
+                                    <img src="images/people/3.jpg" alt="" />
+                                    <span class="name">OrKs Grand Poitiers, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Despite being on a very strict time schedule, Anthony did an amazing job and had really shown his dedication when working on our order.  
+                                    He listened to all the feedback we had during the thought process, and we could not be happier with the result.
+                                    <img src="images/people/12.jpg" alt="" />
+                                    <span class="name">Exalty, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony is great and his work is just as great. He listens to players/managers for touch-ups, gives his all for the project.
+                                    We asked him for a skin in a short time, and the final skin is awesome!
+                                    The staff and the players were all happy, thanks again!
+                                    <img src="images/people/4.jpg" alt="" />
+                                    <span class="name">beGenius ESC, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    To be honest, I was very pleased to work with Antony on our 2022 livery for our entry into TrackMania Grand League. 
+                                    He is very professional, reactive and provides a very high quality of work. 
+                                    <img src="images/people/8.jpg" alt="" />
+                                    <span class="name">Team Homyno, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Through the TrackMania Grand League skins he produced for us, he was always able to bring the Edelweiss brand to life through its creativity.
+                                    It was a real pleasure working with Antony, we definitely recommend his work.
+                                    <img src="images/people/5.jpg" alt="" />
+                                    <span class="name">Edelweiss Esports, Customer</span>
+                                </blockquote>                    
+                                <blockquote class="testimonial-big text-light">
+                                    Antony is a trusted person. 
+                                    He has been a reference on Trackmania for years for his work. 
+                                    We call on him for all the skins we need and we don’t hesitate to redirect our colleagues/friends to him, it’s always a pleasure to work with him!
+                                    <img src="images/people/7.jpg" alt="" />
+                                    <span class="name">Lille Esport, Customer</span>
+                                </blockquote>
+                                <blockquote class="testimonial-big text-light">
+                                    Antony stepped up on short notice to help a unique project designed to make the fishing industry more fun for kids. 
+                                    Making four different and unique skins with top quality and delivering the different points we wanted to have. 
+                                    Couldn't be happier with the results!
+                                    <img src="images/people/6.jpg" alt="" />
+                                    <span class="name">Eirik Holdal, Customer</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-portfolio" class="dark">
+                <div class="container">
+                    <!-- portfolio filter begin -->
+                    <div class="row">
+                        <div class="col-lg-12 wow fadeInRight">
+                            <h4 class="title">Showcase of my best works</h4>
+                            <h2 class="title">Portfolio</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="col-md-12 text-center wow fadeInRight" data-wow-delay=".25s">
+                            <ul id="filters">
+                                <li><a href="#" data-filter="*" id="btn_all" class="selected">All Projects</a></li>
+                                <li><a href="#" data-filter=".illustration">Trackmania&reg; Skins</a></li>
+                                <li><a href="#" data-filter=".mobile">Trackmania² Stadium&reg; Skins</a></li>
+                                <li><a href="#" data-filter=".photography">Graphic Projects</a></li>
+                            </ul>
+                            <div id="gallery" class="gallery full-gallery de-gallery zoom-gallery row sequence wow fadeInRight" data-wow-delay=".5s">
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bds22.png" title="Team BDS 2022" data-source="https://www.behance.net/gallery/139850701/Team-BDS-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">Team BDS 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bds22.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/homyno22.png" title="Team Homyno 2022" data-source="https://www.behance.net/gallery/139791575/Team-Homyno-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">Team Homyno 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/homyno22.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/sly22.png" title="SOLARY 2022" data-source="https://www.behance.net/gallery/139276497/Solary-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">SOLARY 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/sly22.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/sinners.png" title="SINNERS Esports 2022" data-source="https://www.behance.net/gallery/138770013/SINNERS-Esports-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">SINNERS Esports 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/sinners.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/glideskal.png" title="Gildeskål Trackmania Event 2022" data-source="https://www.behance.net/gallery/138492989/Gildeskal-Trackmania-Event-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">Gildeskål Trackmania Event 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/glideskal.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/sprout.png" title="Sprout 2022" data-source="https://www.behance.net/gallery/137703991/Sprout-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">Sprout 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/sprout.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/teaser.png" title="SpeedMania 2022" data-source="https://www.behance.net/gallery/136504025/SpeedMania-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">SpeedMania 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/teaser.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/spam2022.png" title="Spam 2022" data-source="https://www.behance.net/gallery/135367177/Spam-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">Spam 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/spam2022.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/tlb2022.png" title="TLB Event 2022" data-source="https://www.behance.net/gallery/134930333/TLB-Event-2022">
+                                        <span class="overlay">
+                                            <span class="d-title">TLB Event 2022</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/tlb2022.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/banz.png" title="reWals 2021" data-source="https://www.behance.net/gallery/133748183/BanZ-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">BanZ 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/banz.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/rw2021.png" title="reWals 2021" data-source="https://www.behance.net/gallery/132831515/reWals-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">reWals 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/rw2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/pedroai.png" title="PedroAI 2021" data-source="https://www.behance.net/gallery/132609775/PedroAI-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">PedroAI 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/pedroai.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/skilleo.png" title="SKILLEO 2021" data-source="https://www.behance.net/gallery/132101287/SKILLEO-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">SKILLEO 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/skilleo.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/ldg2021.png" title="Loading 2021" data-source="https://www.behance.net/gallery/131231241/Loading-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Loading 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/ldg2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/vitae.png" title="Vitae Esport 2021" data-source="https://www.behance.net/gallery/130738383/Vitae-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Vitae Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/vitae.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bm21.png" title="Bossmika 2021" data-source="https://www.behance.net/gallery/130490387/Bossmika-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Bossmika 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bm21.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/alliancenew.png" title="Alliance 2021" data-source="https://www.behance.net/gallery/129428635/Alliance-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Alliance 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/alliancenew.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/exaltytauro.png" title="Exalty Tauro 2021" data-source="https://www.behance.net/gallery/129385573/Exalty-Tauro-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Exalty Tauro 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/exaltytauro.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bg2021.png" title="beGenius 2021" data-source="https://www.behance.net/gallery/128946007/beGenius-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">beGenius 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bg2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/jlesports.png" title="JL Esports 2021" data-source="https://www.behance.net/gallery/128269785/JL-Esports-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">JL Esports 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/jlesports.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/pyrnenes.png" title="Pyrénées Esport 2021" data-source="https://www.behance.net/gallery/127690681/Pyrnes-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Pyrénées Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/pyrnenes.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/wortex.png" title="Wortex Gaming 2021" data-source="https://www.behance.net/gallery/127308001/Wortex-Gaming-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Wortex Gaming 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/wortex.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/elity.png" title="Elity Cup 2021" data-source="https://www.behance.net/gallery/127190701/Elity-Cup-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Elity Cup 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/elity.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/orksgpnumelops.png" title="OrKsGP Numelops 2021" data-source="https://www.behance.net/gallery/127145217/orKsGP-Numelops-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">OrKsGP Numelops 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/orksgpnumelops.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/racetal.png" title="Racetal 2021" data-source="https://www.behance.net/gallery/126990033/Racetal-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Racetal 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/racetal.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/valouz.png" title="ValouZ 2021" data-source="https://www.behance.net/gallery/126683465/ValouZ-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">ValouZ 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/valouz.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bzh2021.png" title="BZH 2021" data-source="https://www.behance.net/gallery/124446957/BZH-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">BZH 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bzh2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/relics.png" title="Forza Uganda 2021" data-source="https://www.behance.net/gallery/123886667/Relics-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Relics 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/relics.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/uganda.png" title="Forza Uganda 2021" data-source="https://www.behance.net/gallery/123391803/Forza-Uganda-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Forza Uganda 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/uganda.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/warthox2021.png" title="WARTHOX 2021" data-source="https://www.behance.net/gallery/123077447/WARTHOX-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">WARTHOX 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/warthox2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/maxtheorum.png" title="MaxTheorum 2021" data-source="https://www.behance.net/gallery/123017001/MaxTheorum-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">MaxTheorum 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/maxtheorum.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/sovex66.png" title="Sovex 2021" data-source="https://www.behance.net/gallery/122640065/Sovex-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Sovex 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/sovex66.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/tauceti2021.png" title="Tauceti Esports 2021" data-source="https://www.behance.net/gallery/122263387/Tauceti-Esports-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Tauceti Esports 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/tauceti2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/gius.png" title="Gius 2021" data-source="https://www.behance.net/gallery/121493293/Gius-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Gius 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/gius.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/playwell.png" title="Playwell Esport 2021" data-source="https://www.behance.net/gallery/121263734/Playwell-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Playwell Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/playwell.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/adecco.png" title="Eagles Esport 2021" data-source="https://www.behance.net/gallery/120524605/Adecco-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Adecco 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/adecco.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/eagles2021.png" title="Eagles Esport 2021" data-source="https://www.behance.net/gallery/120253333/Eagles-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Eagles Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/eagles2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/crazy.png" title="MrMoveSs 2021" data-source="https://www.behance.net/gallery/120051477/Crazy-Esport-Bretagne-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Crazy Esport Bretagne 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/crazy.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/mrmovess.png" title="MrMoveSs 2021" data-source="https://www.behance.net/gallery/119992003/MrMoveSs-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">MrMoveSs 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/mrmovess.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/mces.png" title="MCES 2021" data-source="https://www.behance.net/gallery/119944097/MCES-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">MCES 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/mces.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/ecl.png" title="Eclipse 2021" data-source="https://www.behance.net/gallery/119742951/Eclipse-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Eclipse 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/ecl.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/riolu2021.png" title="Gaming 4 Seasons 2021" data-source="https://www.behance.net/gallery/118975969/Riolu-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Riolu 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/riolu2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/g4s.png" title="Gaming 4 Seasons 2021" data-source="https://www.behance.net/gallery/118643453/G4S-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Gaming 4 Seasons 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/g4s.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/popouette.png" title="Popouette 2021" data-source="https://www.behance.net/gallery/117418309/Popouette-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Popouette 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/popouette.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/falken.png" title="Turboluke Falken 2021" data-source="https://www.behance.net/gallery/116355755/Turboluke-Falken-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Turboluke Falken 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/falken.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/luckers2021.png" title="ZennIT Gaming 2021" data-source="https://www.behance.net/gallery/116026429/Luckers-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Luckers 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/luckers2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/zennit.png" title="ZennIT Gaming 2021" data-source="https://www.behance.net/gallery/115573979/ZennIT-Gaming-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">ZennIT Gaming 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/zennit.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/thc2021.png" title="THC Racing 2021" data-source="https://www.behance.net/gallery/115248941/THC-Racing-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">THC Racing 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/thc2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/lille.png" title="Lille Esport 2021" data-source="https://www.behance.net/gallery/114757975/Lille-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Lille Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/lille.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/wavy.png" title="Wavy Esport 2021" data-source="https://www.behance.net/gallery/114255075/Wavy-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Wavy Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/wavy.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/sm2021.png" title="SpeedMania 2021" data-source="https://www.behance.net/gallery/112919989/SpeedMania-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">SpeedMania 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/sm2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/atx.png" title="Athletix Esport 2021" data-source="https://www.behance.net/gallery/112784691/Athletix-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Athletix Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/atx.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/lzr001.png" title="Lazarus 2021" data-source="https://www.behance.net/gallery/112039135/Lazarus-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Lazarus 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/lzr001.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/edw2021.png" title="Edelweiss Esport 2021" data-source="https://www.behance.net/gallery/111945901/Edelweiss-Esport-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Edelweiss Esport 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/edw2021.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/ar.png" title="Aurora Racing 2021" data-source="https://www.behance.net/gallery/110677263/Aurora-Racing-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Aurora Racing 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/ar.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/ubiteam.png" title="UBITEAM 2021" data-source="https://www.behance.net/gallery/110676863/UBITEAM-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">UBITEAM 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/ubiteam.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/burgos.png" title="Burg0s 2021" data-source="https://www.behance.net/gallery/110135255/Burg0s-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Burg0s 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/burgos.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/meta.png" title="Meta 2020" data-source="https://www.behance.net/gallery/108388197/Meta-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Meta 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/meta.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/cxx.png" title="Edelweiss Esport 2020" data-source="https://www.behance.net/gallery/107579187/CiremyxX-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">CiremyxX 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/cxx.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/flawless.png" title="Edelweiss Esport 2020" data-source="https://www.behance.net/gallery/107029297/Flawless-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Flawless 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/flawless.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/edelweiss.png" title="Edelweiss Esport 2020" data-source="https://www.behance.net/gallery/104206177/Edelweiss-Esport-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Edelweiss Esport 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/edelweiss.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/alliance.png" title="Alliance Club 2020" data-source="https://www.behance.net/gallery/104121135/Alliance-Club-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Alliance Club 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/alliance.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/mudda.png" title="Mudda Penguin Club 2020" data-source="https://www.behance.net/gallery/103251975/Mudda-Penguin-Club-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Mudda Penguin Club 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/mudda.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/wp.png" title="Waypoint Mapping 2020" data-source="https://www.behance.net/gallery/102893063/Waypoint-Mapping-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Waypoint Mapping 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/wp.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/l4bomb4.png" title="L4Bomb4 2020" data-source="https://www.behance.net/gallery/101981737/L4BOMB4-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">L4Bomb4 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/l4bomb4.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/chevre.png" title="Loyalty Esport 2020" data-source="https://www.behance.net/gallery/101857813/Chevre-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Chevre 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/chevre.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/lty.png" title="Loyalty Esport 2020" data-source="https://www.behance.net/gallery/101720393/Loyalty-Esport-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Loyalty Esport 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/lty.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bpp.png" title="BPP 2020" data-source="https://www.behance.net/gallery/101736159/BPP-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">BPP 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bpp.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/xd.png" title="XD 2020" data-source="https://www.behance.net/gallery/101515499/XD-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">XD 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/xd.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/spam.png" title="Spam 2020" data-source="https://www.behance.net/gallery/101199413/Spam-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Spam 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/spam.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/the.png" title="THE 2020" data-source="https://www.behance.net/gallery/100958749/THE-Gaming-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">THE 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/the.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/orks.png" title="OrKs Grand Poitiers 2020" data-source="https://www.behance.net/gallery/100671101/orKsGP-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">OrKs Grand Poitiers 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/orks.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/onex.png" title="OneX Esport 2020" data-source="https://www.behance.net/gallery/100675973/One-X-Esport-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">OneX Esport 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/onex.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/thc.png" title="THC Racing 2020" data-source="https://www.behance.net/gallery/100534269/THC-Racing-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">THC Racing 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/thc.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/bossmika.png" title="Bossmika 2020" data-source="https://www.behance.net/gallery/100299859/Bossmika-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Bossmika 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/bossmika.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/wavy2020.png" title="Wavy Esport 2020" data-source="https://www.behance.net/gallery/100079563/Wavy-Esport-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Wavy Esport 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/wavy2020.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/hxk.png" title="Hexakil 2020" data-source="https://www.behance.net/gallery/99953629/Hexakil-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Hexakil 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/hxk.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item illustration">
+                                    <a class="picframe" href="images/portfolio/tm2020/vibe2020.png" title="Wirtual x The Vibe 2020" data-source="https://www.behance.net/gallery/99884121/The-Vibe-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Wirtual x The Vibe 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2020/vibe2020.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+
+
+
+
+
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-last.png" title="Phönix 2020" data-source="https://www.behance.net/gallery/98829289/Phoenix-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Phönix 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-last.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-15.png" title="Knights 2021" data-source="https://www.behance.net/gallery/116752837/Knights-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">Knights 2021</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-15.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-14.png" title="Faint 2020" data-source="https://twitter.com/antoskinsTM/status/1340655041481502723?t=ZpTzJbrRvwP9zIqO5iw1Fg&s=19">
+                                        <span class="overlay">
+                                            <span class="d-title">Faint 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-14.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-12.png" title="Sheeps 2020" data-source="https://www.behance.net/gallery/108130733/Sheeps-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Sheeps 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-12.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-13.png" title="SpeedMania 2020" data-source="https://www.behance.net/gallery/99521533/SpeedMania-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">SpeedMania 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-13.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-11.png" title="Renault Replica 2020" data-source="https://www.behance.net/gallery/98709153/Renault-2020-Replica">
+                                        <span class="overlay">
+                                            <span class="d-title">Renault Replica 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-11.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-10.png" title="RedBull Replica 2020" data-source="https://www.behance.net/gallery/97941833/RedBull-2020-Replica">
+                                        <span class="overlay">
+                                            <span class="d-title">RedBull Replica 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-10.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-9.png.png" title="RacingPoint Replica 2020" data-source="https://www.behance.net/gallery/97941711/RacingPoint-2020-Replica">
+                                        <span class="overlay">
+                                            <span class="d-title">RacingPoint Replica 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-9.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-11,5.png" title="Bleubleue & Nekketsu 2020" data-source="https://www.behance.net/gallery/97654609/BleubleueNekketsu-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Bleubleue & Nekketsu 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-11,5.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-8.png" title="Wirtual x The Vibe 2020" data-source="https://www.behance.net/gallery/97155039/Wirtual-The-Vibe-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Wirtual x The Vibe 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-8.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-7.png" title="Extratone 2020" data-source="https://www.behance.net/gallery/95371089/Extratone-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Extratone 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-7.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-6.png" title="Loupphok 2020" data-source="https://www.behance.net/gallery/94774433/Loupphok-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Loupphok 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-6.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-5.png" title="Cyborg 2020" data-source="https://www.behance.net/gallery/94244675/Cyborg-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Cyborg 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-5.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-4.png" title="AlphaTauri Replica 2020" data-source="https://www.behance.net/gallery/93037421/AlphaTauri-2020-Replica">
+                                        <span class="overlay">
+                                            <span class="d-title">AlphaTauri Replica 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-4.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-3.png" title="Nordic Skirmishers 2020" data-source="https://www.behance.net/gallery/92719435/Nordic-Skirmishers-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Nordic Skirmishers 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-3.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-2.png" title="Venture 2020" data-source="https://www.behance.net/gallery/91988397/Venture-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Venture 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-2.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-1.png" title="Oblivion 2020" data-source="https://www.behance.net/gallery/91945847/Oblivion-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">Oblivion 2020</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-1.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item mobile">
+                                    <a class="picframe" href="images/portfolio/tm2/tm2-tmr.png" title="#TMRAdventure" data-source="https://www.behance.net/gallery/92275755/TMRAdventure-50-liveries-in-1-month">
+                                        <span class="overlay">
+                                            <span class="d-title">#TMRAdventure</span>
+                                        </span>
+                                        <img src="images/portfolio/tm2/tm2-tmr.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->  
+                                
+
+
+
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-3.png" title="Alpha 2022 Streampack" data-source="https://www.behance.net/gallery/133077079/Alpha-2022-Streampack">
+                                        <span class="overlay">
+                                            <span class="d-title">Alpha 2022 Streampack</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-3.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-1.png" title="Alpha 2022 Streampack" data-source="https://www.behance.net/gallery/126704095/Summerz-2021-Streampack?share=1">
+                                        <span class="overlay">
+                                            <span class="d-title">Summerz 2021 Streampack</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-1.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-1,5.png" title="TCS 2021 Graphic Identity" data-source="https://www.behance.net/gallery/117567623/TCS-Graphic-Identity-2021">
+                                        <span class="overlay">
+                                            <span class="d-title">TCS 2021 Graphic Identity</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-1,5.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->                            
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-2.png" title="CPS 2020 Graphic Identity" data-source="https://www.behance.net/gallery/103470279/CPS-Graphic-Identity-2020">
+                                        <span class="overlay">
+                                            <span class="d-title">CPS 2020 Graphic Identity</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-2.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->                                
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-4.png" title="Shockeur 2020 Streampack" data-source="https://www.behance.net/gallery/97165875/Shockeur-2020-Streampack1">
+                                        <span class="overlay">
+                                            <span class="d-title">Shockeur 2020 Streampack</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-4.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-5.png" title="Buzy 2020 Streampack" data-source="https://www.behance.net/gallery/96754509/Buzy-2020-Streampack">
+                                        <span class="overlay">
+                                            <span class="d-title">Buzy 2020 Streampack</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-5.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-0.png" title="FOX-TEAM 2019 Team Jersey" data-source="https://www.behance.net/gallery/91954975/Team-Fox-Jersey-2019">
+                                        <span class="overlay">
+                                            <span class="d-title">FOX-TEAM 2019 Team Jersey</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-0.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                                <!-- gallery item -->
+                                <div class="item col-md-4 mb30 gallery-item photography">
+                                    <a class="picframe" href="images/portfolio/gfx/gfx-6.png" title="UNBITN Studio" data-source="https://www.behance.net/gallery/91956553/UNBITN-Studio-TMONE">
+                                        <span class="overlay">
+                                            <span class="d-title">UNBITN Studio</span>
+                                        </span>
+                                        <img src="images/portfolio/gfx/gfx-6.png" alt="" />
+                                    </a>
+                                </div>
+                                <!-- close gallery item -->
+                            </div>
+                        </div>
+                        <!-- portfolio filter close -->
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-contact" class="dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 wow fadeInRight">
+                            <a href="https://www.aht.li/3692369/CV-v2.pdf"><h4 class="title">Let's work together</h4></a>
+                            <h2 class="title">Contact Me</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                    </div>
+                    <form name="contactForm" id="contact_form" class="row form-default wow fadeInRight" data-wow-delay=".25s" method="post" action="email.php">
+                        <div class="col-md-6">
+                            <div class="field-set">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" />
+                                <div class="line-fx"></div>
+                            </div>
+                            <div class="field-set">
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" />
+                                <div class="line-fx"></div>
+                            </div>
+                            <div class="field-set">
+                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" />
+                                <div class="line-fx"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="field-set">
+                                <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+                                <div class="line-fx"></div>
+                            </div>
+                        </div>
+                        <div class="spacer-single"></div>
+                        <div class="col-md-12 text-center">
+                            <div id="submit">
+                                <input type="submit" id="send_message" value="Send" class="btn btn-custom color-2" />
+                            </div>
+                            <div id="mail_success" class="success">Your message has been sent successfully.</div>
+                            <div id="mail_fail" class="error">Sorry, error occured this time sending your message.</div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- content close -->
+    </div>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/typed-custom.js"></script>
+    <script src="js/designesia.js"></script>
+    
 </body>
+
 </html>
