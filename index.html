@@ -1,484 +1,1192 @@
 <!DOCTYPE html>
-<html lang="eng">
 
-<head>
-    <meta charset="utf-8" />
-    <title>antoskins</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="French content-creator & beta-tester in TrackMania, second TrackMania Skinner Of The Year 2020/2021, and also studying in computer science. Here is the place where the best of my work for e-sports structures or clients has been gathered since 2018." name="description" />
-    <meta content="antoskins, antoskins trackmania, trackmania, trackmania skins, trackmania skinner, livery design, freelance designer" name="keywords" />
-    <meta content="Antony Pinel" name="author" />
+<html lang="en">
+	<head>
 
-    <script src="https://kit.fontawesome.com/77fa4d8648.js" crossorigin="anonymous"></script>
+		<!-- Title -->
+		<title>antoskins</title>
 
-    <!-- CSS Files
-    ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/jpreloader.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-04.css" rel="stylesheet" type="text/css" />
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="Freelance livery artist and content creator focused on TrackMania skins since 2016.">
+		<meta name="keywords" content="antoskins trackmania, trackmania skins, trackmania 2020 skins, trackmania car skin, tmnf skins, trackmania skinner, livery artist">
+		<meta name="author" content="Antony Pinel">
 
-<body>
-    <div id="wrapper">
-        <div id="btn-exit">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-        </div>
-        <div class="transition"></div>
-        <!-- header begin -->
-        <header class="header-b transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="d-flex justify-content-between">
-                            <div class="align-self-center header-col-left">
-                                <!-- logo begin -->
-                                <div id="logo">
-                                    <a href="index.html">
-                                        antøskins.
-                                    </a>
-                                </div>
-                                <!-- logo close -->
-                            </div>
-                            <div class="align-self-center ml-auto header-col-mid">
-                                <!-- mainmenu begin -->
-                                <ul id="mainmenu" class="scrollnav">
-                                    <li><a href="#section-resume">Resume</a></li>
-                                    <li></li>
-                                    <li><a href="#section-about">About Me</a></li>
-                                    <li></li>
-                                    <li><a href="https://www.behance.net/antoskins" target="_blank">Portfolio</a></li>
-                                    <li></li>
-                                    <li><a href="#section-contact">Contact</a></li>
-                                    <li><i class="flag flag-united-kingdom"></i></li>
-                                </ul>
-                                <!-- mainmenu close -->
-                            </div>
-                            <div class="align-self-center ml-auto header-col-right">
-                                <span id="menu-btn"></span>
-                                <div class="social-icons s-border sm-hide">
-                                    <a href="https://discord.com/invite/AfYZqrK"><i class="fa-brands fa-discord"></i>
-                                    <a href="https://twitter.com/antoskinsTM"><i class="fa-brands fa-twitter"></i>
-                                    <a href="https://www.instagram.com/antoskinstm/"><i class="fa-brands fa-instagram"></i>
-                                    <a href="https://www.twitch.tv/antoskins"><i class="fa-brands fa-twitch"></i>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header close -->
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Favicon (http://www.favicon-generator.org/) -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Google Analytics -->
+		<!-- Paste your Google Analytics code here (go to http://www.google.com/analytics/ for more information). -->
+
+		<!-- Google fonts (https://www.google.com/fonts) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
+		<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
+
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="assets/vendor/normalize/normalize.min.css"> <!-- Normalize CSS (https://necolas.github.io/normalize.css/) -->
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+		<link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
+		<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
+
+		<!-- Template master CSS -->
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+
+	</head>
+
+	
+	<!-- ===========
+	///// Body /////
+	================
+	* Use class "tt-boxed" to enable page boxed layout globally (affects all elements containing class "tt-wrap").
+	* Use class "tt-smooth-scroll" to enable page smooth scrolling.
+	* Use class "tt-transition" to enable page transitions.
+	* Use class "tt-magic-cursor" to enable magic cursor.
+	* Note: there may be classes that are specific to this page only!
+	-->
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
+
+
+		<!-- *************************************
+		*********** Begin body inner ************* 
+		************************************** -->
+		<main id="body-inner">
+
+			<!-- Begin page transition (do not remove!!!) 
+			=========================== -->
+			<div id="page-transition">
+				<div class="ptr-overlay"></div>
+				<div class="ptr-preloader">
+					<div class="ptr-prel-content">
+						<!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".ptr-prel-image"). -->
+						<img src="assets/img/logo-light.png" class="ptr-prel-image tt-logo-light" alt="Logo">
+					</div> <!-- /.ptr-prel-content -->
+				</div> <!-- /.ptr-preloader -->
+			</div>
+			<!-- End page transition -->
+
+			<!-- Begin magic cursor 
+			======================== -->
+			<div id="magic-cursor">
+				<div id="ball"></div>
+			</div>
+			<!-- End magic cursor --> 
+
+
+			<!-- *****************************************
+			*********** Begin scroll container *********** 
+			****************************************** -->
+			<div id="scroll-container"> 
+				
+				<!-- ===================
+				///// Begin header /////
+				========================
+				* Use class "tt-header-fixed" to set header to fixed position.
+				-->
+				<header id="tt-header" class="tt-header-fixed">
+					<div class="tt-header-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin logo 
+							================ -->
+							<div class="tt-logo"> 
+								<a href="index.html">
+									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
+									<img src="assets/img/logo-light.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
+									<img src="assets/img/logo-dark.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
+								</a>
+							</div>
+							<!-- End logo -->
+
+						</div> <!-- /.tt-header-col -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin overlay menu toggle button -->
+							<div id="tt-ol-menu-toggle-btn-wrap">
+								<div class="tt-ol-menu-toggle-btn-text-wrap hide-cursor">
+									<div class="tt-ol-menu-toggle-btn-text">
+										<span class="text-menu" data-hover="Open">Menu</span>
+										<span class="text-close">Close</span>
+									</div> <!-- /.tt-ol-menu-toggle-btn-text -->
+								</div> <!-- /.tt-ol-menu-toggle-btn-text-wrap -->
+								<div class="tt-ol-menu-toggle-btn-holder">
+									<a href="#" class="tt-ol-menu-toggle-btn magnetic-item"><span></span></a>
+								</div> <!-- /.tt-ol-menu-toggle-btn-holder -->
+							</div>
+							<!-- End overlay menu toggle button -->
+
+							<!-- Begin overlay menu 
+							======================== 
+							* Use class "tt-ol-menu-count" to enable menu counter.
+							-->
+							<nav class="tt-overlay-menu tt-ol-menu-count">
+								<div class="tt-ol-menu-ghost">Explore</div>
+								<div class="tt-ol-menu-holder">
+									<div class="tt-ol-menu-inner tt-wrap">
+										<div class="tt-ol-menu-content">
+
+											<!-- Begin menu list -->
+											<ul class="tt-ol-menu-list">
+
+												<li class="active"><a href="landing-page.html">Home</a></li>
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="https://www.behance.net/antoskins">Portfolio</a>		
+													</div> <!-- /.tt-ol-submenu-trigger -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="about.html">About</a>
+													</div> <!-- /.tt-ol-submenu-trigger -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="contact.html">Contact</a>
+													</div> <!-- /.tt-ol-submenu-trigger -->
+
+											<!-- Begin overlay menu social links 
+											===================================== -->
+											<ul class="tt-ol-menu-social">
+												<li><h6 class="tt-ol-menu-social-heading">Social Links:</h6></li>
+												<li><a href="https://www.behance.net/antoskins" target="_blank" rel="noopener">Behance</a></li>
+												<li><a href="https://discord.com/invite/AfYZqrK" target="_blank" rel="noopener">Discord</a></li>
+												<li><a href="https://twitter.com/antoskinsTM" target="_blank" rel="noopener">Twitter</a></li>
+												<li><a href="https://www.instagram.com/antoskinstm/" target="_blank" rel="noopener">Instagram</a></li>
+												<li><a href="https://www.twitch.tv/antoskins" target="_blank" rel="noopener">Twitch</a></li>
+											</ul>
+											<!-- End overlay menu social links -->
+
+										</div> <!-- /.tt-ol-menu-content -->
+									</div> <!-- /.tt-ol-menu-inner -->
+								</div> <!-- /.tt-ol-menu-holder -->
+							</nav> 
+							<!-- End overlay menu -->
+
+						</div> <!-- /.header-col -->
+					</div> <!-- /.header-inner -->
+				</header>
+				<!-- End header -->
+
+				
+				<!-- *************************************
+				*********** Begin content wrap *********** 
+				************************************** -->
+				<div id="content-wrap">
+
+					
+					<!-- ========================
+					///// Begin page header /////
+					============================= 
+					* Use class "ph-full" to enable fullscreen size (no effect on smaller screens!).
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
+					* Use class "ph-center" to enable content center position.
+					* Use class "ph-image-cropped" to crop image (if image is used). It uses fixed image dimensions (no effect with class "ph-bg-image"!).
+					* Use class "ph-bg-image" to enable page header background image. Note: "ph-caption-title-ghost" will be disabled if you enable this option!
+					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only with class "ph-bg-image").
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
+					* Use class "ph-content-parallax" to enable content parallax.
+					* Use class "ph-stroke" to enable caption title stroke style.
+					* Use class "ph-ghost-scroll" to enable the scroll effect to caption title ghost (no effect with class "ph-center"!).
+					-->
+					<div id="page-header" class="ph-full ph-cap-lg ph-ghost-scroll ph-image-cropped ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
+
+							<!-- Begin page header image 
+							============================= -->
+							<!-- <div class="ph-image">
+								<div class="ph-image-inner">
+									<img src="assets/img/page-header/ph-1.jpg" alt="Image">
+								</div>
+							</div> -->
+							<!-- End page header image -->
+
+							<!-- Begin page header caption
+							=============================== 
+							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="ph-caption">
+								<!-- <div class="ph-caption-subtitle">
+									<div class="ph-appear">Subtitle</div>
+								</div> -->
+								<h1 class="ph-caption-title">
+									<div class="ph-appear">Livery Artist,<br>Designer<span class="hide-from-sm">→</span> <em class="text-stroke-light">focused</em><br>on digital creations</div> <!-- You can use <br> to break a text line if needed -->
+								</h1>
+								<div class="ph-caption-title-ghost">
+									<div class="ph-appear">Livery Artist</div>
+								</div>
+							</div>
+							<!-- End page header caption -->
+
+						</div> <!-- /.page-header-inner -->
+
+						<!-- Begin scroll down (you can change "data-offset" to set scroll top offset) 
+						======================= -->
+						<div class="tt-scroll-down">
+							<a href="#page-content" class="tt-sd-inner ph-appear" data-offset="0">
+								<div class="tt-sd-arrow">
+									<div class="tt-sd-arrow-inner"></div>
+								</div>
+								<div class="tt-sd-text">Scroll</div>
+							</a>
+						</div>
+						<!-- End scroll down -->
+						
+					</div>
+					<!-- End page header -->
+
+					
+					<!-- *************************************
+					*********** Begin page content *********** 
+					************************************** -->
+					<div id="page-content">
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section">
+							<div class="tt-section-inner">
+
+								<!-- Begin portfolio grid (works combined with tt-Ggrid!)
+								========================== 
+								* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
+								* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
+								* Use class "pgi-cap-center" to position portfolio grid item caption to center.
+								* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
+								--> 
+								<div id="portfolio-grid" class="pgi-hover">
+
+									<!-- Begin tt-Grid
+									=================== 
+									* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
+									* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
+									* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
+									* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
+									* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
+									* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+									* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+									-->
+									<div class="tt-grid ttgr-layout-creative-2 ttgr-gap-4">
+
+										<!-- Begin tt-Grid items wrap 
+										============================== -->
+										<div class="tt-grid-items-wrap isotope-items-wrap">
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="https://trackmania.cupraofficial.fr/" target="_blank" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/1200/portfolio-1.jpg" alt="Trackmania skins for a collaboration between Ubisoft and the car brand CUPRA">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="https://trackmania.cupraofficial.fr/" target="_blank">NEO-CUPRA Skins</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Collaboration between Ubisoft and the car brand CUPRA</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item creative">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="https://www.behance.net/gallery/161438909/Karmine-Corp-2023" target="_blank" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/1200/portfolio-2.jpg" alt="Trackmania skin liveries used by multiples organisations in TrackMania World Tour">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="https://www.behance.net/gallery/161438909/Karmine-Corp-2023" target="_blank">TrackMania World Tour</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Skin liveries used by multiples organisations in TrackMania World Tour</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item creative">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="https://www.behance.net/gallery/147518525/Veritas-2022" target="_blank" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/1200/portfolio-12.jpg" alt="Veritas 2022 skin which won the Skin of The Year category at the TrackMania Awards 2022">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="https://www.behance.net/gallery/147518525/Veritas-2022" target="_blank">Skin Of The Year 2022</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Skin of The Year 2022 awarded during the TrackMania Awards 2022</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="zrt-skins.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/1200/portfolio-3.jpg" alt="Trackmania skin liveries used during ZrT TrackMania Cup 2022 at Bercy Accor Arena">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="zrt-skins.html">ZrT TrackMania Cup 2022</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Skin liveries used during ZrT TrackMania Cup 2022 at Bercy Accor Arena</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item nature">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="https://www.trackmania.com/news/7267" target="_blank" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/1200/portfolio-4.jpg" alt="Official TrackMania prestige skin liveries used in MatchMaking">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="https://www.trackmania.com/news/7267" target="_blank">Official Trackmania Prestige Skins</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Official TrackMania prestige skin liveries used in MatchMaking</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+										</div>
+										<!-- End tt-Grid items wrap  -->
+
+									</div>
+									<!-- End tt-Grid -->
+
+								</div>
+								<!-- End portfolio grid -->
+
+
+								<div class="text-center anim-fadeinup">
+
+									<!-- Begin scrolling button (See all works)
+									============================ -->
+									<a href="https://www.behance.net/antoskins" class="tt-scrolling-btn all-works-btn" data-cursor="All<br>Works">
+										<div class="scr-btn-inner ph-appear">
+											<div class="scr-btn-icon"><i class="fas fa-arrow-right"></i></div>
+											<div class="scr-btn-spinner">
+												<svg viewBox="0 0 500 500">
+													<defs>
+														<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+													</defs>
+													<!-- If you change the text, you probably need to adjust the CSS so that it fits correctly. Find ".scr-btn-text" in file "theme.css" and adjust it for your needs. -->
+													<text dy="30" class="scr-btn-text">
+														<textPath xlink:href="#textcircle">See All Works - See All Works -</textPath>
+													</text>
+												</svg>
+											</div>
+										</div> <!-- /.sdc-inner -->
+									</a>
+									<!-- End scrolling button -->
+
+								</div> <!-- /.text-center -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap">
+
+								<div class="tt-row padding-bottom-2-p">
+									<div class="tt-col-lg-7">
+
+										<!-- Begin tt-Heading 
+										====================== 
+										* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+										* Use class "tt-heading-stroke" to enable stroke style.
+										* Use class "tt-heading-center" to align tt-Heading to center.
+										* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+										-->
+										<div class="tt-heading tt-heading-xlg anim-fadeinup">
+											<h3 class="tt-heading-subtitle">My Services</h3>
+											<h2 class="tt-heading-title">Digital Solutions</h2> <!-- You can use <br> to break a text line if needed -->
+										</div>
+										<!-- End tt-Heading -->
+
+									</div> <!-- /.tt-col -->
+
+									<div class="tt-col-lg-5 tt-align-self-center">
+
+										<div class="anim-fadeinup">
+											<h5>"Bringing your vision to life, one pixel at a time"</h5>
+										</div>
+
+										<div class="text-gray anim-fadeinup">
+											<p>When passion, courage, and craftsmanship are put into something, positive things will happen.</p>
+										</div>
+
+									</div> <!-- /.tt-col -->
+								</div> <!-- /.tt-row -->
+
+								<!-- Begin accordion 
+								===================== 
+								* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size.
+								* Use class "tt-ac-borders" to enable borders.
+								* Note: Add class "is-open" to the "tt-accordion-content" to make this content open by default.
+								-->
+								<div class="tt-accordion tt-ac-borders">
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head cursor-alter">
+												<h3 class="tt-ac-head-title">Branding & Identity</h3>
+												<!-- <div class="tt-accordion-subtext">Mauris mauris ante</div> -->
+											</div>
+
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret-inner magnetic-item">
+													<div class="tt-accordion-caret"></div>
+												</div>
+											</div> <!-- /.tt-accordion-caret-wrap -->
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>Design and graphic identity creations for business or individuals, such as creating logos, flyers, posters or even graphic elements for Twitch.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head cursor-alter">
+												<h3 class="tt-ac-head-title">Livery Design</h3>
+												<!-- <div class="tt-accordion-subtext">Vivamus nisi</div> -->
+											</div>
+
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret-inner magnetic-item">
+													<div class="tt-accordion-caret"></div>
+												</div>
+											</div> <!-- /.tt-accordion-caret-wrap -->
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>Based on requests or specifications provided by the customer, design skins liveries on several racing games like TrackMania.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head cursor-alter">
+												<h3 class="tt-ac-head-title">Website Development</h3>
+												<!-- <div class="tt-accordion-subtext">Nam min proin eget</div> -->
+											</div>
+
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret-inner magnetic-item">
+													<div class="tt-accordion-caret"></div>
+												</div>
+											</div> <!-- /.tt-accordion-caret-wrap -->
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>Design and creation of complete web responsive applications, using different languages and technologies such as Angular, Symfony, Boostrap, JavaScript etc.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<div class="tt-ac-head cursor-alter">
+												<h3 class="tt-ac-head-title">Community Management</h3>
+												<!-- <div class="tt-accordion-subtext">Condimentum sit amet</div> -->
+											</div>
+
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret-inner magnetic-item">
+													<div class="tt-accordion-caret"></div>
+												</div>
+											</div> <!-- /.tt-accordion-caret-wrap -->
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>Based on my experience, management of several communication accounts on social networks to post the news of the company in direct contact with the audience.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+								</div>
+								<!-- End accordion -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 bg-white-accent-3">
+							<div class="tt-section-inner">
+
+								<!-- Begin scrolling text
+								========================== 
+								Change data-scroll-speed="*" to adjust scrolling speed.
+								Use class "scr-text-reverse" to reverse scrolling direction. 
+								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
+								-->
+								<div class="tt-scrolling-text" data-scroll-speed="10">
+									<div class="tt-scrolling-text-inner" data-text="Skinner Of The Year 2022 →">
+										Skinner Of The Year 2022 →
+									</div> <!-- /.tt-scrolling-text-inner -->
+								</div>
+								<!-- End scrolling text -->
+
+								<!-- Begin scrolling text
+								========================== 
+								Change data-scroll-speed="*" to adjust scrolling speed.
+								Use class "scr-text-reverse" to reverse scrolling direction. 
+								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
+								-->
+								<div class="tt-scrolling-text scr-text-stroke scr-text-reverse" data-scroll-speed="10">
+									<div class="tt-scrolling-text-inner" data-text="More than 7 year experience →">
+										More than 7 year experience →
+									</div> <!-- /.tt-scrolling-text-inner -->
+								</div>
+								<!-- End scrolling text -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap">
+
+								<!-- Begin tt-Heading 
+								====================== 
+								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+								* Use class "tt-heading-stroke" to enable stroke style.
+								* Use class "tt-heading-center" to align tt-Heading to center.
+								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-120 anim-fadeinup">
+									<!-- <h3 class="tt-heading-subtitle text-main">Subtitle</h3> -->
+									<h2 class="tt-heading-title">Worked With</h2> <!-- You can use <br> to break a text line if needed -->
+								</div>
+								<!-- End tt-Heading -->
+
+								<!-- Begin logo wall 
+								=====================
+								* Use class "cl-col-2", "cl-col-3" or "cl-col-4" to change columns.
+								* Hint: for better results make sure all your images are in the same dimensions!
+								-->
+								<ul class="tt-logo-wall anim-fadeinup">
+									<li>
+										<a href="https://twitter.com/Trackmania" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-1-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-1-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/CUPRA" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-2-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-2-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/KarmineCorp" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-3-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-3-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/TeamBDS" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-4-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-4-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/SolaryTV" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-5-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-5-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/g1official" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-6-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-6-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/ATNattax" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-7-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-7-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/theAllianceGG" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-8-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-8-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/sproutGG" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-9-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-9-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/MCES_officiel" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-10-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-10-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/ITBesports" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-11-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-11-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/Exalty_FR" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-12-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-12-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/EsportWavy" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-13-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-13-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/beGeniusESC" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-14-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-14-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/SINNERS_Esports" class="cursor-alter" target="_blank" rel="noopener">
+											<img src="assets/img/clients/client-15-light.png" class="lv-client-light">
+											<img src="assets/img/clients/client-15-dark.png" class="lv-client-dark">
+										</a>
+									</li>
+
+									<!-- Use the below example if you want a list without links -->
+									<!-- <li><img src="assets/img/clients/client-1.png" alt="Client"></li> -->
+								</ul>
+								<!-- End logo wall -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-100 bg-white-accent-3">
+							<div class="tt-section-inner tt-wrap">
+
+								<div class="tt-row">
+									<div class="tt-col-lg-5">
+
+										<!-- Begin tt-Heading 
+										====================== 
+										* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+										* Use class "tt-heading-stroke" to enable stroke style.
+										* Use class "tt-heading-center" to align tt-Heading to center.
+										* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+										-->
+										<div class="tt-heading tt-heading-lg margin-bottom-60 anim-fadeinup">
+											<h3 class="tt-heading-subtitle">Testimonials</h3>
+											<h2 class="tt-heading-title">What<br> Customers<br> Say</h2> <!-- You can use <br> to break a text line if needed -->
+										</div>
+										<!-- End tt-Heading -->
+
+									</div> <!-- /.tt-col -->
+
+									<div class="tt-col-lg-7 tt-align-self-center">
+
+										<!-- Begin testimonials slider 
+										===============================
+										* Use class "text-center" to align text to the center.
+										* Use class "cursor-drag" to enable cursor drag on carousel hover ("data-simulate-touch" attribute must be enabled!).
+										* Use class "ts-hide-pagination" to hide pagination (for desktop only!).
+										* Use class "ts-hide-navigation" to hide navigation arrows.
+										* Use class "ts-full-width" to enable full width slider (useful for standalone element).
+										* Available data attributes:
+												data-speed="900"......................(milliseconds)
+												data-autoplay="5000"..................(milliseconds. Note: disabled after user first interactions)
+												data-simulate-touch="true"............(true/false)
+												data-loop="true"......................(true/false)
+										-->
+										<div class="tt-testimonials-slider cursor-drag ts-scale-down ts-hide-navigation anim-fadeinup" data-loop="true" data-simulate-touch="true" data-speed="900">
+
+											<!-- Begin swiper container -->
+											<div class="swiper">
+
+												<!-- Begin swiper wrapper (required) -->
+												<div class="swiper-wrapper">
+
+													<!-- Begin swiper slide 
+													======================== -->
+													<div class="swiper-slide">
+
+														<!-- Begin testimonials slider item 
+														==================================== -->
+														<div class="tt-testimonials-slider-item">
+															<div class="tt-ts-item-inner">
+																<div class="tt-ts-text">
+																	"We have been able to use his services on many occasions where he exercised his missions with rigour, dynamism, motivation, punctuality and seriousness. 
+																	His services are particularly appreciated within Ubisoft Nadeo and we continue to use them regularly."
+																</div> <!-- /.tt-ts-text -->
+																<div class="tt-ts-subtext">- Ubisoft Nadeo</div>
+															</div> <!-- /.tt-ts-item-inner -->
+														</div> 
+														<!-- End testimonials slider item -->
+
+													</div> 
+													<!-- End swiper slide -->
+
+													<!-- Begin swiper slide 
+													======================== -->
+													<div class="swiper-slide">
+
+														<!-- Begin testimonials slider item 
+														==================================== -->
+														<div class="tt-testimonials-slider-item">
+															<div class="tt-ts-item-inner">
+																<div class="tt-ts-text">
+																	"He was able to provide a very high quality work in a very short time in order to meet the needs of the structure. His professionalism allowed for good exchanges in order to lead the project towards its final goal quickly.
+																	We are very satisfied with his work and will not hesitate to contact him in future projects."
+																</div> <!-- /.tt-ts-text -->
+																<div class="tt-ts-subtext">- Team BDS</div>
+															</div> <!-- /.tt-ts-item-inner -->
+														</div>
+														<!-- End testimonials slider item -->
+
+													</div>
+													<!-- End swiper slide -->
+
+													<!-- Begin swiper slide 
+													======================== -->
+													<div class="swiper-slide">
+
+														<!-- Begin testimonials slider item 
+														==================================== -->
+														<div class="tt-testimonials-slider-item">
+															<div class="tt-ts-item-inner">
+																<div class="tt-ts-text">
+																	"Despite a small margin of manoeuvre in terms of guidlines, he made our skins quickly and they are perfectly adapted to the need and the ideas we had for them.
+																	As a force of proposal, he understood our expectations and knew how to advise and accompany us throughout the creation process."
+																</div> <!-- /.tt-ts-text -->
+																<div class="tt-ts-subtext">- SOLARY</div>
+															</div> <!-- /.tt-ts-item-inner -->
+														</div>
+														<!-- End testimonials slider item -->
+
+													</div>
+													<!-- End swiper slide -->
+
+													<!-- Begin swiper slide 
+													======================== -->
+													<div class="swiper-slide">
+
+														<!-- Begin testimonials slider item 
+														==================================== -->
+														<div class="tt-testimonials-slider-item">
+															<div class="tt-ts-item-inner">
+																<div class="tt-ts-text">
+																	"Antony managed to provide a very professional quality in his work and also in his contact, with short deadlines despite the workload. 
+																	Good free-topic ideas and considerable flexibility in line with customer demand !
+																	Special mention to attention to detail."
+																</div> <!-- /.tt-ts-text -->
+																<div class="tt-ts-subtext">- orKs Grand Poitiers</div>
+															</div> <!-- /.tt-ts-item-inner -->
+														</div>
+														<!-- End testimonials slider item -->
+
+													</div> 
+													<!-- End swiper slide -->
+
+													<!-- Begin swiper slide 
+													======================== -->
+													<div class="swiper-slide">
+
+														<!-- Begin testimonials slider item 
+														==================================== -->
+														<div class="tt-testimonials-slider-item">
+															<div class="tt-ts-item-inner">
+																<div class="tt-ts-text">
+																	"Antony always been on point with delivering quality skins to Spammiej's community and also for us during the TrackMania Grand League.
+																	He has great creativity and always listens very well to feedback.
+																	Always have a good time working together!"
+																</div> <!-- /.tt-ts-text -->
+																<div class="tt-ts-subtext">- Alliance</div>
+															</div> <!-- /.tt-ts-item-inner -->
+														</div>
+														<!-- End testimonials slider item -->
+
+													</div> 
+													<!-- End swiper slide -->
+
+												</div>
+												<!-- End swiper wrapper -->
+
+											</div>
+											<!-- End swiper container -->
+
+
+											<!-- Begin testimonials slider navigation (arrows) 
+											=================================================== -->
+											<div class="tt-ts-nav-prev">
+												<div class="tt-ts-nav-arrow magnetic-item"><i class="tt-arrow-left"></i></div>
+											</div>
+											<div class="tt-ts-nav-next">
+												<div class="tt-ts-nav-arrow magnetic-item"><i class="tt-arrow-right"></i></div>
+											</div>
+											<!-- End testimonials slider navigation -->
+
+											<!-- Testimonials slider pagination -->
+											<div class="tt-ts-pagination hide-cursor"></div>
+
+										</div>
+										<!-- End testimonials slider -->
+
+									</div> <!-- /.tt-col -->
+								</div> <!-- /.tt-row -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150">
+							<div class="tt-section-inner tt-wrap max-width-700">
+
+								<!-- Begin tt-Heading 
+								====================== 
+								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+								* Use class "tt-heading-stroke" to enable stroke style.
+								* Use class "tt-heading-center" to align tt-Heading to center.
+								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-heading tt-heading-xxlg margin-bottom-8-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle">Get in Touch</h3>
+									<h2 class="tt-heading-title">Let's Work<br> Together!</h2> <!-- You can use <br> to break a text line if needed -->
+								</div>
+								<!-- End tt-Heading -->
+
+								<!-- Begin form 
+								================ 
+								* Use class "tt-form-filled" or "tt-form-minimal" to change form style.
+								* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
+								-->
+								<form id="tt-contact-form" action="https://getform.io/f/f05b626b-78a5-4f4e-8a71-fd6defcd4789" method="POST" class="tt-form-filled anim-fadeinup">
+
+									<!-- add hidden Honeypot input to prevent spams -->
+    								<input type="hidden" name="_gotcha" style="display:none !important">
+
+									<div class="tt-row">
+										<div class="tt-col-md-6">
+
+											<div class="tt-form-group">
+												<label>Your Name <span class="required">*</span></label>
+												<input class="tt-form-control" type="text" name="Name" placeholder="" required>
+											</div>
+
+										</div> <!-- /.tt-col -->
+
+										<div class="tt-col-md-6">
+
+											<div class="tt-form-group">
+												<label>Email address <span class="required">*</span></label>
+												<input class="tt-form-control" type="email" name="Email" placeholder="" required>
+											</div>
+
+										</div> <!-- /.tt-col -->
+									</div> <!-- /.tt-row -->
+
+									<div class="tt-form-group">
+										<label>Subject <span class="required">*</span></label>
+										<input class="tt-form-control" type="text" name="Subject" placeholder="" required>
+									</div>
+
+									<!-- <div class="tt-form-group">
+										<label>Select an option <span class="required">*</span></label>
+										<select class="tt-form-control" name="option" required>
+											<option value="" disabled selected>Please choose an option</option>
+											<option value="Say Hello">Say hello</option>
+											<option value="New Project">New project</option>
+											<option value="Feedback">Feedback</option>
+											<option value="Other">Other</option>
+										</select>
+									</div> -->
+
+									<div class="tt-form-group">
+										<label>Your Message <span class="required">*</span></label>
+										<textarea class="tt-form-control" rows="5" name="Message" placeholder="" required></textarea>
+									</div>
+
+									<small class="tt-form-text"><em>Fields marked with an asterisk (*) are required!</em></small>
+
+									<button type="submit" class="tt-btn tt-btn-primary margin-top-30">
+										<div data-hover="Send Message">Send Message</div>
+										<span class="tt-btn-icon"><i class="fas fa-paper-plane"></i></span>
+									</button>
+								</form>
+								<!-- End form -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+					</div>
+					<!-- End page content -->
+					
+
+					<!-- ======================
+					///// Begin tt-footer /////
+					=========================== -->
+					<footer id="tt-footer">
+						<div class="tt-footer-inner">
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<a href="#" class="tt-btn tt-btn-link scroll-to-top">
+										<span class="tt-btn-icon"><i class="fas fa-arrow-up"></i></span>
+										<div data-hover="Back to Top">Back to Top</div>
+									</a>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+
+									<div class="tt-copyright text-gray">
+										<a href="#" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
+											<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
+											<div data-hover="antoskins.com">antoskins.com</div>
+										</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><a href="https://www.behance.net/antoskins" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-behance"></i></a></li>
+												<li><a href="https://discord.com/invite/AfYZqrK" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></li>
+												<li><a href="https://twitter.com/antoskinsTM" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com/antoskinstm/" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+												<li><a href="https://www.twitch.tv/antoskins" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-twitch"></i></a></li>
+											</ul>
+										</div> <!-- /.social-buttons -->
+									</div> <!-- /.footer-social -->
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer -->
+
+
+				</div>
+				<!-- End content wrap -->
+
+			</div>
+			<!-- End scroll container -->
+
+		</main>
+		<!-- End body inner -->
+
+
         
-        <!-- content begin -->
-        <div class="no-bottom no-top dark">
-            <div id="top"></div>
-            <!-- section begin -->
-            <section id="section-main" class="vertical-center text-light" data-bgimage="url(images/background/5.webp) top">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
 
-                            <div class="typed-words wow fadeInRight" data-wow-delay=".2s">
-                                <div class="typed-strings">
-                                    <p>Welcome</p>
-                                    <p>Bienvenue</p>
-                                    <p>Bienvenidas</p>                                               
-                                    <p>Welkom</p>
-                                </div>
-                                <div class="typed"></div>
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h1 class="wow fadeInRight" data-wow-delay=".4s">Hello! I'm a <span class="underline">freelance</span> Livery Artist & Designer based in <span class="underline">France</span></h1>
-                            <div class="spacer-single"></div>
-                            <a href="index2.html" class="btn-custom light wow fadeInRight scoll-to" data-wow-delay=".6s"><i class="fa-solid fa-arrow-right-to-bracket"></i> Version du site en français</a>
-                        </div>
+		<!-- ====================
+		///// Scripts below /////
+		===================== -->
 
-                        <div class="col-md-6 sm-hide"><blockquote class="text-light pull-right wow fadeInRight" data-wow-delay=".6s">Design is in the details.</blockquote></div>
-                    </div>
-                </div>
-            </section>
-            <!-- section close -->
+		<!-- Core JS -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
 
-            <!-- section begin -->
-            <section id="section-resume" class="dark">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12 wow fadeInRight">
-                            <a href="https://www.aht.li/3713730/CV-v2.pdf"><h4 class="title">I'm available for hire</h4></a>
-                            <h2 class="title">Resume</h2>
-                            <div class="title-underline"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInRight" data-wow-delay=".25s">
-                            <h3 class="s_border">Education</h3>
-                            <ul class="d_timeline">
-                                <li class="d_timeline-item">
-                                    <h3 class="d_timeline-title">September 2020 - July 2022</h3>
-                                    <p class="d_timeline-text"><span class="d_title">DUT Informatique<span>Aix-Marseille Université</span></span>
-                                        • Creation of a Pac-Man game on terminal - C++<br>
-                                        • AI project with machine learning - C++<br>
-                                        • Portfolio website development - HMTL/CSS/JavaScript<br>
-                                        • Development of an event site - PHP/mySQL<br>
-                                        • Mathematical modelling of an epidemic - Python</p>
-                                </li>
-                                <li class="d_timeline-item">
-                                    <h3 class="d_timeline-title">September 2017 - July 2020</h3>
-                                    <p class="d_timeline-text"><span class="d_title">BAC Scientifique<span>Lycée Maurice Genevoix</span></span></p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 wow fadeInRight" data-wow-delay=".5s">
-                            <h3 class="s_border">Work Experiences</h3>
-                            <ul class="d_timeline">
-                                <li class="d_timeline-item">
-                                    <h3 class="d_timeline-title">November 2016 - Now</h3>
-                                    <p class="d_timeline-text"><span class="d_title">Graphic &amp; Livery Designer<span>Freelance</span></span>
-                                        • Graphic charter development<br>
-                                        • Car-skin livery creation and 3D Rendering<br>
-                                        • Create graphic assets on the Twitch platform<br>
-                                        • Design of E-sport jerseys<br>
-                                        • Graphic work for E-sports or corporate structures</p>
-                                </li>
-                                <li class="d_timeline-item">
-                                    <h3 class="d_timeline-title">April 2020 - Now</h3>
-                                    <p class="d_timeline-text"><span class="d_title">Alpha-tester<span>UBISOFT Nadeo</span></span>
-                                        • Preview functionality tests<br>
-                                        • Report bugs encountered during sessions<br>
-                                        • Reporting to developers<br>
-                                        • Improve the gaming experience</p>
-                                </li>
-                                <li class="d_timeline-item">
-                                    <h3 class="d_timeline-title">April 2022 - June 2022</h3>
-                                    <p class="d_timeline-text"><span class="d_title">Internship<span>Armée de l'Air et de l'Espace</span></span>
-                                        • Development of new materials for training tools<br>
-                                        • Development and improvement of networking of these tools<br>
-                                        • Improvement of the working network of the Initial Military Aeronautical Training Center
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="spacer-50"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="s_border">Programming Skills</h3>
-                            <div class="skill-bar">
-                                <h5>HTML &amp; CSS &amp; JavaScript</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <h5>PHP &amp; mySQL</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="75%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <h5>C++ &amp; Python</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="65%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <h3 class="s_border">Design Skills</h3>
-                            <div class="skill-bar">
-                                <h5>Adobe Photoshop &amp; Lightroom</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="95%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <h5>Adobe inDesign</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-bar">
-                                <h5>Adobe Illustrator</h5>
-                                <div class="de-progress">
-                                    <div class="value"></div>
-                                    <div class="progress-bar" data-value="65%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- section close -->
+		<!-- Libs and Plugins JS -->
+		<script src="assets/vendor/gsap/gsap.min.js"></script> <!-- GSAP JS (https://greensock.com/gsap/) -->
+		<script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script> <!-- GSAP ScrollToPlugin JS (https://greensock.com/scrolltoplugin/) -->
+		<script src="assets/vendor/gsap/ScrollTrigger.min.js"></script> <!-- GSAP ScrollTrigger JS (https://greensock.com/scrolltrigger/) -->
 
-            <!-- section begin -->
-            <section id="section-about" class="dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 wow fadeInRight">
-                            <h4 class="title"><a href="https://www.aht.li/3713730/CV-v2.pdf">Let me introduce myself</a></h4>
-                            <h2 class="title">About Me</h2>
-                            <div class="title-underline"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 mb-sm-30 text-center">
-                            <div class="de-images">                                
-                                <div class="d-hover-zoom wow fadeInRight">
-                                    <a class="image-popup" href="images/background/1.webp">
-                                        <img class="img-fluid" src="images/background/1.webp" alt="" />
-                                    </a>
-                                </div>
-                                <div class="d-hover-zoom di-small-2 wow fadeInLeft">
-                                    <a class="image-popup" href="images/background/2.webp">
-                                        <img src="images/background/2.webp" alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 offset-md-1 wow fadeInRight" data-wow-delay=".5s">
-                            <h2>Hello, I'm <span class="id-color">Antony Pinel</span></h2>
-                            <p>
-                                Hello ! I'm a 20 year-old french student. Huge fan of racing and motorsports in general.
-                                Then in 2015, I've started creating car-skin liveries in Photoshop on my favorite game Trackmania.
-                                Currently in an computer science university, I'm studying programming to upgrade my skillset.
-                                Delighted to explore new styles, I'm always ready to push my limits in my projects.
-                            </p>
-                            <ul class="info-list text-white">
-                                <li><span class="d_title">Age</span><span class="d_value">20</span></li>
-                                <li><span class="d_title">Residence</span><span class="d_value">Marignane, France</span></li>
-                                <li><span class="d_title">Email</span><span class="d_value">antonypinel@gmail.com</span></li>
-                                <li><span class="d_title">Phone</span><span class="d_value">+33 7 50 24 48 36</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="spacer-80"></div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="s_border">Services</h3>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-laptop id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Front-end Website Development</h4>
-                                    <p>Creation of a custom front-end portfolio website using HMTL, CSS and JavaScript languages.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-paper-plane-o id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Branding</h4>
-                                    <p>Design and creation of graphic charter or complete graphic identity for company or individuals.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30 wow fadeInRight" data-wow-delay=".5s">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-line-chart id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Digital Communication</h4>
-                                    <p>Design and management of the company’s visual communication means through various digital formats.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay=".25s">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-hdd-o id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Back-end Website Development</h4>
-                                    <p>Creation and creation of a server-side architecture with database using PHP and mySQL languages.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay="0s">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-object-group id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Livery Design</h4>
-                                    <p>Based on the customer’s graphic identity, design liveries on several racing games like TrackMania, Assetto Corsa Competizione.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInRight" data-wow-delay=".5s">
-                            <div class="f-box f-icon-left f-icon-box">
-                                <i class="fa fa-comments-o id-color"></i>
-                                <div class="fb-text">
-                                    <h4>Community Management</h4>
-                                    <p>Based on my experience, management of several communication accounts on social networks to post the news of the company in direct contact with the audience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spacer-80"></div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="s_border">Testimonials</h3>
-                        </div>
-                        <div class="col-md-12">
-                            <div id="testimonial-carousel" class="owl-carousel owl-theme wow fadeInUp">
-                                <blockquote class="testimonial-big text-light">
-                                    Despite a small margin of manoeuvre in terms of guidlines, Antony made our skins quickly and they are perfectly adapted to the need and the ideas we had for them.
-                                    As a force of proposal, he understood our expectations and knew how to advise and accompany us throughout the creation process!
-                                    <img src="images/people/11.jpg" alt="" />
-                                    <span class="name">Solary, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony was able to provide a very high quality work in a very short time in order to meet the needs of the structure. His professionalism allowed for good exchanges in order to lead the project towards its final goal quickly. 
-                                    We are very satisfied with his work and will not hesitate to contact him in future projects.
-                                    <img src="images/people/10.jpg" alt="" />
-                                    <span class="name">Team BDS, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony always been on point with delivering quality skins to Spam's community and also for us during the TrackMania Grand League. 
-                                    He has great creativity and always listens very well to feedback. 
-                                    Always have a good time working together!
-                                    <img src="images/people/9.jpg" alt="" />
-                                    <span class="name">Alliance, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony was super effective! He managed to combine quality, with a very short delay that allowed us to show our skin as soon as possible to our viewers during a major esport event which is the ZLAN.
-                                    I recommend these services in every way.
-                                    <img src="images/people/1.jpg" alt="" />
-                                    <span class="name">MCES, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Since we had no experience in Trackmania livery design, Antony was able to give us a helping hand. We didn't have a tight time limit, but after handing over the brandguide, the finished design with additional renders was ready in no time. 
-                                    We are happy as can be!
-                                    <img src="images/people/2.jpg" alt="" />
-                                    <span class="name">Sprout, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony managed to provide a very professional quality in his work and also in his contact, with short deadlines despite the workload. Good free-topic ideas and considerable flexibility in line with customer demand !
-                                    Special mention to attention to detail.
-                                    <img src="images/people/3.jpg" alt="" />
-                                    <span class="name">OrKs Grand Poitiers, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Despite being on a very strict time schedule, Anthony did an amazing job and had really shown his dedication when working on our order.  
-                                    He listened to all the feedback we had during the thought process, and we could not be happier with the result.
-                                    <img src="images/people/12.jpg" alt="" />
-                                    <span class="name">Exalty, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony is great and his work is just as great. He listens to players/managers for touch-ups, gives his all for the project.
-                                    We asked him for a skin in a short time, and the final skin is awesome!
-                                    The staff and the players were all happy, thanks again!
-                                    <img src="images/people/4.jpg" alt="" />
-                                    <span class="name">beGenius ESC, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    To be honest, I was very pleased to work with Antony on our 2022 livery for our entry into TrackMania Grand League. 
-                                    He is very professional, reactive and provides a very high quality of work. 
-                                    <img src="images/people/8.jpg" alt="" />
-                                    <span class="name">Team Homyno, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Through the TrackMania Grand League skins he produced for us, he was always able to bring the Edelweiss brand to life through its creativity.
-                                    It was a real pleasure working with Antony, we definitely recommend his work.
-                                    <img src="images/people/5.jpg" alt="" />
-                                    <span class="name">Edelweiss Esports, Customer</span>
-                                </blockquote>                    
-                                <blockquote class="testimonial-big text-light">
-                                    Antony is a trusted person. 
-                                    He has been a reference on Trackmania for years for his work. 
-                                    We call on him for all the skins we need and we don’t hesitate to redirect our colleagues/friends to him, it’s always a pleasure to work with him!
-                                    <img src="images/people/7.jpg" alt="" />
-                                    <span class="name">Lille Esport, Customer</span>
-                                </blockquote>
-                                <blockquote class="testimonial-big text-light">
-                                    Antony stepped up on short notice to help a unique project designed to make the fishing industry more fun for kids. 
-                                    Making four different and unique skins with top quality and delivering the different points we wanted to have. 
-                                    Couldn't be happier with the results!
-                                    <img src="images/people/6.jpg" alt="" />
-                                    <span class="name">Eirik Holdal, Customer</span>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- section close -->
+		<script src="assets/vendor/smooth-scrollbar.js"></script> <!-- Smooth Scrollbar JS (https://github.com/idiotWu/smooth-scrollbar/) -->
+		<script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+		<script src="assets/vendor/isotope/imagesloaded.pkgd.min.js"></script> <!-- imagesloaded JS (more info: https://imagesloaded.desandro.com/) -->
+		<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+		<script src="assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
+		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
 
-            <!-- section begin -->
-            <section id="section-contact" class="dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 wow fadeInRight">
-                            <a href="https://www.aht.li/3713730/CV-v2.pdf"><h4 class="title">Let's work together</h4></a>
-                            <h2 class="title">Contact Me</h2>
-                            <div class="title-underline"></div>
-                        </div>
-                    </div>
-                    <form name="contactForm" id="contact_form" class="row form-default wow fadeInRight" data-wow-delay=".25s" action="https://getform.io/f/8e30af84-50c8-4d84-91f2-70a70c893df5" method="POST">
-                        <div class="col-md-6">
-                            <div class="field-set">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" />
-                                <div class="line-fx"></div>
-                            </div>
-                            <div class="field-set">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" />
-                                <div class="line-fx"></div>
-                            </div>
-                            <div class="field-set">
-                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" />
-                                <div class="line-fx"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="field-set">
-                                <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
-                                <div class="line-fx"></div>
-                            </div>
-                        </div>
-                        <div class="spacer-single"></div>
-                        <div class="col-md-12 text-center">
-                            <div id="submit">
-                                <input type="submit" value="Submit" class="btn btn-custom color-2" />
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </div>
-        <!-- content close -->
-    </div>
-    
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jpreLoader.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/typed-custom.js"></script>
-    <script src="js/designesia.js"></script>
-    
-</body>
+		<!-- Template master JS -->
+		<script src="assets/js/theme.js"></script>
+
+
+
+	</body>
 
 </html>
